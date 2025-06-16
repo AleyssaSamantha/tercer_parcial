@@ -1,8 +1,7 @@
 import { Routes, Route } from "react-router-dom"
 import Inicio from "./pages/Inicio"
 import Ofertas from "./pages/Ofertas"
-import Navegar from "./componentes/Navegar";
-import Footer from "./componentes/footer";
+import Pie from "./componentes/Pie";
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
         <Route path="/" element={<Inicio />} />
         <Route path="/Ofertas" element={<Ofertas />} />
       </Routes>
-      <Footer />
+      <Pie />
     </>
   );
 }

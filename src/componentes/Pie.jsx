@@ -1,4 +1,4 @@
-export function Footer() {
+export function Pie() {
   return (
     <footer className="bg-gray-800 text-white py-6 mt-10 w-full flex flex-col items-center"
     style={{
@@ -14,4 +14,4 @@ export function Footer() {
   );
 }
 
-export default Footer;
+export default Pie;
